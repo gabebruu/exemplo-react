@@ -2,7 +2,7 @@ import UserGreeting from "./components/UserGreeting";
 import Soma from "./components/Soma";
 
 const user = {
-  firstName: "Bruna",
+  firstName: "",
   lastName: "Gabriela",
 };
 const capivara = {
@@ -10,7 +10,6 @@ const capivara = {
   apelido: "s2"
 
 };
-
 
 function App() {
   return (
