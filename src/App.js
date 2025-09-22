@@ -1,4 +1,4 @@
-import UserGreeting from "./components/UserGreeting";
+/*import UserGreeting from "./components/UserGreeting";
 import Soma from "./components/Soma";
 import CheckList from "./components/CheckList";
 
@@ -36,3 +36,26 @@ function App() {
 }
 
 export default App;
+
+// app Importa o nome do que quer fazer, Function APP - retorna DIV com nome*
+
+import Counter from "./components/Counter";
+function App () {
+  return (
+    <div>
+      <Counter/>
+    </div>
+  )
+}
+export default App; */
+
+import GeradorDeNumeros from "./components/Gerar";
+function App () {
+  return (
+    <div>
+      <GeradorDeNumeros/>
+    </div>
+  )
+}
+export default App;
+
