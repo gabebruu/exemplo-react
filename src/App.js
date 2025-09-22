@@ -50,10 +50,14 @@ function App () {
 export default App; */
 
 import GeradorDeNumeros from "./components/Gerar";
+import Adjetivos from "./components/Adjetivos";
+
 function App () {
+  
   return (
     <div>
       <GeradorDeNumeros/>
+      <Adjetivos/>
     </div>
   )
 }
