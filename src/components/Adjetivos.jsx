@@ -26,7 +26,7 @@ export default function Adjetivos() {
 			<div>
 				<h1>Gerador de Nomes</h1>
 				<button onClick={sortRandom}>Gerar Nomes + Advjetivos</button>
-				<p>{randomNames.name == "" ? "Clique em gerar" : `${randomNames.name} ${randomNames.adjective}`}</p>
+				<p>{randomNames.name === "" ? "Clique em gerar" : `${randomNames.name} ${randomNames.adjective}`}</p>
 			</div>
 
 		</>
